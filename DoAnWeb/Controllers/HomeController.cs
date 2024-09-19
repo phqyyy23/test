@@ -8,21 +8,20 @@ namespace DoAnWeb.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Trangchu()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Uudai()
         {
-            ViewBag.Message = "Your application description page.";
+           
             return View();
             
         }
 
-        public ActionResult Contact()
+        public ActionResult Menu()
         {
-            ViewBag.Message = "Your contact page.";
 
             return View();
         }
